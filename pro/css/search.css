@@ -1,0 +1,30 @@
+#sea_list{
+	width: 1226px;
+	margin: 10px auto;
+}
+#sea_list ul{
+	list-style: none;
+}
+#sea_list ul li{
+	width: 243px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+#sea_list ul li .pname{
+	margin-top: 10px;
+	color: #333333;
+	font-size: 18px;
+}
+#sea_list ul li .pname:hover{
+	color: #FF6700;
+}
+#sea_list ul li .desc{
+	margin-top: 10px;
+	color: #888888;
+	font-size: 14px;
+}
+#sea_list ul li .price{
+	margin-top: 15px;
+	color: #FF6700;
+}

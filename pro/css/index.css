@@ -1,0 +1,278 @@
+.bg{
+	background-color: rgb(245,245,245);
+}
+.main{
+	width:1226px;
+	height:460px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+.list{
+	width: 1226px;
+	height: 460px;
+	list-style: none;
+	position: relative;
+}
+.item{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .8s;
+}
+.pointList{
+	list-style: none;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.point{
+	width: 8px;
+	height: 8px;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	border: 2px solid rgba(255,255,255,.6);
+}
+.point:hover{
+	background-color: rgba(255,255,255,.8);
+}
+.point.active{
+	background-color: rgba(255,255,255,.2);
+}
+.lb-left,.lb-right{
+	width: 50px;
+	height: 100px;
+	color: #000;
+	font-size: 50px;
+	font-weight: 50;
+	vertical-align: middle;
+	position: absolute;
+	top: 180px;
+	border-radius: 5px;
+}
+.lb-left:hover,.lb-right:hover{
+	background-color: rgba(0,0,0,.3);
+}
+.lb-left img{
+	margin-left: 15px;
+	margin-top: 40px;
+}
+.lb-right img{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.lb-left{
+	left: 234px;
+}
+.lb-right{
+	right: 0px;
+}
+.item.active{
+	opacity: 1;
+}
+
+.main .nav{
+	position: absolute;
+	width: 234px;
+	height: 460px;
+	background: rgba(105,101,101,.6);
+}
+.main .nav ul{
+	padding: 20px 0;
+	position:relative;
+}
+.main .nav ul li{
+	display: block;
+	width: 174px;
+	height: 40px;
+	line-height:40px;
+	font-size: 14px;
+	padding: 0 30px;
+}
+.main .nav ul li a{
+	text-decoration: none;
+	display:inline-block;
+	margin-left:10px;
+	color: #fff;
+}
+.main>.list>.nav>ul>li:hover{
+	background-color: #FF6700;
+}
+.main .nav ul li .pop {
+	width: 992px;
+	height: 460px;
+	background: #fff;
+	position: absolute;
+	left: 234px;
+	top: 0px;
+	display: none;
+}
+.main .nav ul li:hover .pop {
+	display: block;
+	box-shadow: 2px 3px 5px #ccc;
+	border-top: 1px solid #ccc;
+}
+.main .nav ul li .pop ul{
+	padding: 0 5px;
+	float: left;
+}
+.main .nav ul li .pop ul li{
+	height: 75px;
+	line-height: 75px;
+}
+.main .nav ul li .pop ul li img{
+	margin-left: -25px;
+	vertical-align: middle;
+}
+.main .nav ul li .pop ul li span{
+	margin-left: 5px;
+}
+.main .nav ul li .pop ul li span:hover{
+	color: #FF6700;
+}
+.sub_main{
+	width: 1226px;
+	height: 170px;
+	margin-top: 15px;
+	margin: 15px auto 0;
+}
+.sub_main .sidebar{
+	width: 234px;
+	height: 170px;
+	float: left;
+}
+.sub_main .sidebar div{
+	width: 78px;
+	height: 85px;
+	marign:0;
+	padding: 0;}
+.sub_main .sidebar div a img{opacity:0.8;}
+.sub_main .sidebar div a img:hover{opacity:1;}
+.tt{float: left;}
+.sub_main .tdd{
+	width: 316px;
+	height: 170px;
+	margin-left: 14px;
+	float: left;
+}
+.sub_main .tdd a img{
+	width: 316px;
+	height: 170px;
+	opacity:0.8;
+}
+.sub_main .tdd a img:hover{opacity:1;}
+
+.biaoti{
+	width: 1226px;
+	height: 58px;
+	line-height: 58px;
+	font-size: 22px;
+	font-weight: 200;
+	color: #333;
+}
+
+
+.redmi9box{
+	width: 1226px;
+	height: 120px;
+	margin: 22px auto;
+	overflow: hidden;
+}
+
+.phone{
+	width: 1226px;
+	height: 700px;
+	margin: 15px auto 0;
+}
+.daohan{
+	float: left;
+}
+.remen{
+	width:234px;
+	height: 300px;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	position:relative;
+	background: #fff;
+	float: left;
+}
+.remen:hover{
+	box-shadow: 0px 0px 10px #ccc;
+}
+.remen a{
+	text-decoration: none;
+}
+.remen a .tu{
+	margin:0 10px;
+}
+.remen a .title{
+	margin:0 10px 2px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+}
+
+.remen a .desc{
+	margin:0 10px 10px;
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+}
+
+.remen a .price{
+	color: #FF6700;
+	text-align: center;
+}
+.jiadian{
+	width: 1226px;
+	height: 700px;
+	margin: 15px auto 0;
+}
+.jiadian .daohan{
+	width:234px;
+	height: 300px;
+	position:relative;
+	background: #fff;
+	float: left;
+}
+.remenlast1{
+	width: 234px;
+	height: 142px;
+}
+.remenlast1 img{
+	vertical-align: middle;
+}
+.remen .remenlast1 a .title{
+	margin-top: 45px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #333;
+	text-align: center;
+}
+.remenlast1:hover{
+	box-shadow: 0px 0px 10px #ccc;
+}
+.footer{
+	width: 1226px;
+	margin: 0 auto;
+	border: 1px solid #f00;
+	text-align: center;
+	font-size: 18px;
+}
+.footer .footer-service ul li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 12px 20px;
+}
+.footer .footer-service ul li:hover{
+	color: #FF6700;
+}
+
+

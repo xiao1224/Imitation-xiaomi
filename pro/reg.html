@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		
+	</head>
+	<body>
+		<body>
+			<div class="top">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/login/mistore_logo.png" >
+					</a>
+				</div>
+			</div>
+			
+			<!-- <form method="post" class="form"> -->
+				<div class="reg">
+					<div class="reg-centent">
+						<div class="reg-top">
+							<a href="#" class="zhuce">注册页面</a>
+						</div>
+						<div class="reg-main">
+							用户名称：<input type="text" id="uname" onblur="check_uname()" placeholder="请输入4-16位的数字和字母,以字母开头" />
+							<br /><span id="uname_msg"></span><br />
+							用户密码：<input type="text" id="upwd" onblur="check_upwd()" placeholder="请输入4-10位的数字和字母" />
+							<br /><span id="upwd_msg"></span><br />
+							确认密码：<input type="text" id="spwd" placeholder="请再次输入密码" />
+							<br /><span id="spwd_msg"></span><br />
+							用户邮箱：<input type="text" id="email" onblur="check_email()" placeholder="请输入有效邮箱" />
+							<br /><span id="email_msg"></span><br />
+							联系电话：<input type="text" id="phone" onblur="check_phone()" placeholder="请输入有效电话" />
+							<br /><span id="phone_msg"></span><br />
+						</div>
+						<div class="reg-submit">
+							<button onclick="reg()">注册</button>
+						</div>
+						<div class="reg-other">
+							<div class="likedenglu">
+								<a href="login.html">立刻登录</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- </form> -->
+			
+			
+			
+			
+			
+		<!-- 用户名称：<input type="text" id="uname" onblur="check_uname()" placeholder="请输入4-16位的数字和字母,以字母开头" />
+		<span id="uname_msg"></span><br />
+		用户密码：<input type="text" id="upwd" onblur="check_upwd()" placeholder="请输入4-10位的数字和字母" />
+		<span id="upwd_msg"></span><br />
+		确认密码：<input type="text" id="spwd" onblur="check_spwd()" placeholder="请再次输入密码" />
+		<span id="spwd_msg"></span><br />
+		用户邮箱：<input type="text" id="email" onblur="check_email()" placeholder="请输入有效邮箱" />
+		<span id="email_msg"></span><br />
+		联系电话：<input type="text" id="phone" onblur="check_phone()" placeholder="请输入有效电话" />
+		<span id="phone_msg"></span><br />
+		<button onclick="reg()">注册</button> -->
+		<div class="buttom">
+			<div class="copyright">简体 | 繁体 | English | 常见问题</div>
+			<div class="copyright">小米公司版权所有-京ICP备10046444-<!-- <img src="./image/ghs.png" alt=""> -->京公网安备11010802020134号-京ICP证110507号</div>
+		</div>
+		<script src="js/reg.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>

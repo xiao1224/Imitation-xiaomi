@@ -1,0 +1,305 @@
+*{margin: 0;padding: 0;}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.topbar{
+	/* border: 1px solid black; */
+	background-color: #333;
+	height: 40px;
+}
+.container{
+	margin: 0 auto;
+	width: 1226px;
+	/* border: 1px solid black; */
+}
+.container::before , .container::after,
+.clearfix::before , .clearfix::after{
+	content: "";
+	display: table;
+}
+.container::after , .clearfix::after{
+	clear: both;
+}
+.topbar a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.topbar a:hover{
+	color: #fff;
+}
+
+
+.topbar-nav{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0px;
+}
+.topbar-nav span{
+	font-size: 12px;
+	color: #424242;
+	margin: 8px;
+}
+.topbar-cart , .topbar-info{
+	float: right;
+}
+.topbar-cart a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 120px;
+	background-color: #424242;
+}
+.topbar-cart a:hover{
+	background-color: #fff;
+	color: #ff6700;
+}
+.topbar-cart span{
+	margin-left: -4px;
+	font-size: 12px;
+}
+.topbar-info{
+	margin-right: 15px;
+}
+.topbar-info a{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	padding: 0 5px;
+	float: left;
+}
+.topbar-info span{
+	font-size: 12px;
+	color: #424242;
+	line-height: 40px;
+	height: 40px;
+	float: left;
+}
+/* header */
+.header{
+	height: 100px;
+}
+.header-logo{
+	float:left;
+	width: 62px;
+	height: 55px;
+	margin-top: 22px;
+}
+.header-logo a{
+	display: block;
+	width: 55px;
+	height: 55px;
+	background: #FF6700 url(../img/seckill/mi-logo.png) no-repeat 50%;
+}
+
+
+.header-nav{
+	float: left;
+	width: 820px;
+	height: 100px;
+}
+.header-nav .nav-list{
+	width: 820px;
+	height: 88px;
+	font-size: 16px;
+	padding: 12px 0 0 30px;
+}
+.header-nav .nav-list .nav-category{
+	float: left;
+	width: 127px;
+	padding: 0 15px 0 0;
+}
+.header-nav .nav-list .nav-category a{
+	display: block;
+	text-align: right;
+	padding: 26px 0px 38px;
+	color: #333;
+}
+.header-nav .nav-list .nav-item{
+	float: left;
+}
+.header-nav .nav-list .nav-item a{
+	display: block;
+	padding: 26px 10px 38px;
+	color: #333;
+}
+.header-nav .nav-list .nav-item a:hover,
+.header-nav .nav-list .nav-category a:hover{
+	color: #ff6700;
+}
+.header-search{
+	float: right;
+	width: 296px;
+	height: 50px;
+	margin-top: 25px;
+	position: relative;
+}
+
+/* .header-search .search-from{
+	position: relative;
+	display: block;
+	width: 296px;
+	height: 50px;
+} */
+.header-search /* .search-from */ .search-text{
+	position: absolute;
+	top: 0;
+	right: 51px;
+	display: block;
+	width: 245px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #e0e0e0;
+	outline: 0;
+}
+.header-search /* .search-from */ .search-btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 52px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	color: #616161;
+	outline: 0;
+	background: url(../img/seckill/search.png)  no-repeat ;
+	background-size: 50px 50px;
+}
+.header-search /* .search-from */ .search-btn:hover{
+	background-color: #FF6700;
+	color: #fff;
+}
+
+.seckill{
+	background: #f5f5f5;
+}
+.seckill-head{
+	margin-top: 19px;
+	width: 100%;
+	height: 170px;
+	background: url(../img/seckill/xiaomimiaosha.jpg) 50% 0 no-repeat;
+}
+
+.seckill-nav{
+	margin: -68px 0 22px;
+}
+.eckill-nav2{
+	position: fixed;
+	top: 60px;
+	width: 1226px;
+}
+.seckill-nav ul{
+	height: 68px;
+	background: #414141;
+}
+.seckill-nav li{
+	display: block;
+	float: left;
+	color: #fff;
+	width: 20%;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	cursor: pointer;
+}
+.seckill-nav li em{
+	display: inline-block;
+	margin-left: 30px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1px;
+	vertical-align: middle;
+}
+.seckill-nav li span{
+	display: inline-block;
+	text-align: left;
+	line-height: 1;
+	vertical-align: middle;
+	font-size: 14px;
+}
+.seckill-nav .active{
+	background-color: #f1393a;
+}
+.seckill-goods .active{
+	display: block;
+}
+.seckill-goods ul{
+	margin-right: -13px;
+	display: none;
+}
+.seckill-goods li{
+	float: left;
+	width: 400px;
+	height: 190px;
+	background-color:#fff ;
+	margin-right: 13px;
+	margin-bottom: 13px;
+}
+.seckill-goods ul li:hover{
+	box-shadow: 0px 0px 10px #ccc;
+}
+.seckill-goods .bg{
+	float: left;
+	width: 190px;
+	height: 190px;
+}
+.seckill-goods .bg img{
+	height: 190px;
+}
+.seckill-goods .info{
+	float: right;
+	width: 190px;
+	height: 190px;
+	padding-top: 30px;
+}
+.seckill-goods .info .name{
+	font-size: 18px;
+	color: #333;
+	height: 18px;
+	line-height: 18px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.seckill-goods .info .desc{
+	margin-top: 12px;
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 12px;
+}
+.seckill-goods .info .price{
+	font-size: 16px;
+	line-height: 16px;
+	color: #F1393A;
+	margin-top: 14px;
+}
+.seckill-goods .info .price del{
+	color: #999;
+	font-size: 12px;
+	line-height: 12px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.seckill-goods .info .btn{
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background-color: #F1393A;
+	margin-top: 14px;
+}
+.seckill-notice{
+	font-size: 12px;
+	color: #999;
+	margin-top: 100px;
+	padding-bottom: 35px;
+}

@@ -1,0 +1,169 @@
+* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+			.shangou{
+				width: 1226px;
+				margin: 15px auto;
+				height: 420px;
+			}
+			#seckillbox {
+				width: 992px;
+				height: 400px;
+				overflow: hidden;
+				/* border: 1px solid #ff0; */
+				position: relative;
+			}
+
+			.daojishi {
+				width: 234px;
+				height: 340px;
+				position:relative;
+				float: left;
+				background-color: #f1eded;
+				margin-top: 24px;
+			}
+			.daojishi img{
+				position: absolute;
+				top: 120px;
+				left: 100px;
+			}
+			/* #box{
+			  width: 200px;
+			  height:300px;
+			  margin: 200px 200px;
+			  background: red;
+			  position: relative;
+			 } */
+			 .txt{
+			  width: 150px;
+			  height:50px;
+			  text-align: center;
+			  line-height: 50px;
+			  color: #ef3a3b;
+			  font-size: 30px;
+			  font-weight: 900;
+			  position: absolute;
+			  left: 40px;
+			  top: 30px;
+			 
+			 }
+			 .hour{
+			  left: 40px;
+			 }
+			 .h_m{
+			  left: 88px;
+			 }
+			 .minute{
+			  left: 100px;
+			 }
+			 .m_s{
+			  right: 82px;
+			 }
+			 .second{
+			  left: 160px;
+			 }
+			 .end{
+				position: absolute;
+				top: 210px;
+				left: 70px;
+				color: #605751;
+			 }
+			 .hour,.minute,.second{
+			  position: absolute;
+			  top:250px;
+			  color: #fff;
+			  font-size: 20px;
+			  text-align: center;
+			  line-height: 40px;
+			  width: 40px;
+			  height: 40px;
+			  background: #605751;
+			 }
+			 .h_m, .m_s{
+			  color: #605751;
+			  font-size: 20px;
+			  font-weight: 900;
+			  position: absolute;
+			  bottom: 60px;
+			 }
+			
+
+
+			#imglist {
+				margin-top: 20px;
+				width: 4960px;
+				height: 340px;
+			}
+
+			#imglist li {
+				width: 234px;
+				height: 340px;
+				margin-left: 14px;
+				position: relative;
+				background: #fff;
+				float: left;
+			}
+
+			#imglist li .bg {
+				width: 160px;
+				height: 160px;
+				margin: 30px auto;
+			}
+
+			#imglist li .bg img {
+				height: 160px;
+			}
+			
+			#imglist li .info .name{
+				margin:0 15px 2px;
+				font-size: 14px;
+				font-weight: 400;
+				color: #333;
+				text-align: center;
+			}
+			
+			#imglist li .info .desc{
+				margin:0 10px 10px;
+				font-size: 12px;
+				color: #b0b0b0;
+				text-align: center;
+			}
+			
+			#imglist li .info .price{
+				color: #FF6700;
+				text-align: center;
+			}
+			
+			#imglist li .info .price del{
+				color: #999;
+				font-size: 12px;
+				line-height: 12px;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			
+			#iconlist {
+				margin-top: 10px;
+				height: 30px;
+			}
+
+			#iconlist li {
+				float: right;
+				margin-right: 30px;
+				margin-top: 10px;
+			}
+			#iconlist li button{
+				border: none;
+				outline: none;
+				cursor: pointer;
+			}
+			.sg{
+				height: 58px;
+				line-height: 58px;
+				font-size: 22px;
+				font-weight: 200;
+				color: #333;
+			}

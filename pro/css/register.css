@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #000;}
+.top{
+	width: 100%;
+	height: 100px;
+	background: #fff;
+}
+.top .logo{
+	width: 1130px;
+	height: 100px;
+	margin: 0 auto;
+}
+.form{
+	width: 100%;
+	height:588px;
+	margin: 0 auto;
+	background: url(../img/login/login_bg.jpg) no-repeat center center; 
+}
+.reg{
+	width: 1130px;
+	height: 588px;
+	margin: 0 auto;
+	/* border: 1px solid #f00; */
+}
+.reg-centent{
+	position: absolute;
+	width: 410px;
+	height: 510px;
+	margin: 78px 720px;
+	background-color: #fff;
+	/* border: 1px solid #f00; */
+}
+.zhuce{
+	color: #ff6700;
+}
+.reg-top{
+	padding: 28px 0;
+	text-align: center;
+	font-size: 24px;
+	color: #666;
+}
+
+#uname,#upwd,#spwd,#email,#phone{
+	padding: 10px;
+	width: 274px;
+	outline: none;
+}
+#uname_msg,#upwd_msg,#spwd_msg,#email_msg,#phone_msg{
+	padding-left: 80px;
+	color: #f00;
+}
+.reg-submit{
+	margin: 10px auto;
+	width: 304px;
+	height: 50px;
+	text-align: center;
+}
+button{
+	width: 306px;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: #FF6700;
+	color: #fff;
+}
+.reg-other{
+	margin-top: 10px;
+	text-align: center;
+}
+.likedenglu a{
+	color: #999;
+	font-size: 14px;
+}
+.likedenglu a:hover{
+	color: #ff6700;
+}
+.buttom{
+	width: 100%;
+	height: 80px;
+	background:#fff;
+	padding: 30px 0;
+}
+.buttom .copyright{
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	word-spacing: 15px;
+	text-align: center;
+}
+.buttom .copyright:first-of-type{margin-top: 10px;}

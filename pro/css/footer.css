@@ -1,0 +1,140 @@
+footer{
+	width: 1226px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.site-footer .footer-service {
+	padding: 27px 0;
+	border-bottom: 1px solid #e0e0e0
+}
+
+.site-footer .list-service {
+	margin: 0;
+	padding: 0;
+	list-style-type: none
+}
+
+.site-footer .list-service li {
+	float: left;
+	width: 19.8%;
+	height: 25px;
+	border-left: 1px solid #e0e0e0;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center
+}
+
+.site-footer .list-service li:first-child {
+	border-left: 0
+}
+
+.site-footer .list-service  {
+	margin-right: 6px;
+	font-size: 24px;
+	line-height: 24px;
+	vertical-align: -4px
+}
+
+.site-footer .list-service a {
+	color: #616161;
+	-webkit-transition: color .2s;
+	transition: color .2s
+}
+
+.site-footer .list-service a:hover {
+	color: #ff6700
+}
+
+.site-footer .footer-links {
+	padding: 40px 0
+}
+
+.site-footer .footer-links .col-links {
+	float: left;
+	width: 160px;
+	height: 112px;
+	margin: 0
+}
+
+.site-footer .footer-links .col-links dt {
+	margin: -1px 0 26px;
+	font-size: 14px;
+	line-height: 1.25;
+	color: #424242
+}
+
+.site-footer .footer-links .col-links dd {
+	margin: 10px 0 0;
+	font-size: 12px
+}
+
+.site-footer .footer-links .col-links a {
+	color: #757575
+}
+
+.site-footer .footer-links .col-links a:hover {
+	color: #ff6700
+}
+
+.site-footer .footer-links .col-contact {
+	float: right;
+	width: 251px;
+	border-left: 1px solid #e0e0e0;
+	text-align: center;
+	color: #616161
+}
+
+.site-footer .footer-links .col-contact p {
+	margin: 0 0 5px 0;
+	font-size: 12px
+}
+
+.site-footer .footer-links .col-contact .phone {
+	width: auto;
+	height: auto;
+	font-size: 22px;
+	line-height: 1;
+	color: #ff6700
+}
+
+.site-footer .footer-links .col-contact .follow {
+	font-size: 12px;
+	margin-top: 10px;
+	position: relative
+}
+
+.site-footer .footer-links .col-contact .follow img {
+	width: 126px;
+	height: 126px;
+	z-index: 2;
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	display: none
+}
+
+.site-footer .footer-links .col-contact .follow a {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 6px;
+	margin-top: -3px
+}
+
+.site-footer .footer-links .col-contact .follow .wb {
+	/* background: url(../images/wb.png) 50% 0 no-repeat; */
+	background-size: cover
+}
+
+.site-footer .footer-links .col-contact .follow .wb:hover {
+	/* background-image: url(../images/wb@2x.png) */
+}
+
+.site-footer .footer-links .col-contact .follow .wx {
+	/* background: url(../images/wx.png) 50% 0 no-repeat; */
+	background-size: cover
+}
+

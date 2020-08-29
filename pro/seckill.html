@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>小米秒杀</title>
+		<link rel="stylesheet" type="text/css" href="css/seckill.css"/>
+	</head>
+	<body>
+		<div class="topbar">
+			<div class="container">
+				<div class="topbar-nav">
+					<a href="index.html">小米商城</a><span>|</span>
+					<a href="#">MIUI</a><span>|</span>
+					<a href="#">loT</a><span>|</span>
+					<a href="#">云服务</a><span>|</span>
+					<a href="#">金融</a><span>|</span>
+					<a href="#">有品</a><span>|</span>
+					<a href="#">小爱开放平台</a><span>|</span>
+					<a href="#">企业团购</a><span>|</span>
+					<a href="#">资质证照</a><span>|</span>
+					<a href="#">协议规定</a><span>|</span>
+					<a href="#">下载app</a><span>|</span>
+					<a href="#">Select Loction</a><span>|</span>
+				</div>
+				<div class="topbar-cart">
+					<a href="#">购物车<span>（0）</span></a>
+				</div>
+				<div class="topbar-info clearfix">
+					<a href="login.html">登录</a><span>|</span>
+					<a href="#">注册</a><span>|</span>
+					<a href="#">消息通知</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header">
+			<div class="container">
+				<div class="header-logo">
+					<a href="index.html"></a>
+				</div>
+				<div class="header-nav">
+					<ul class="nav-list clearfix">
+						<li class="nav-category">
+							<a href="list.html">全部商品分类</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">小米手机</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">Redmi 红米</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">电视</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">笔记本</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">家电</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">路由器</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">智能硬件</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">服务</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">社区</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search">
+					<!-- <form action="" method="" class="search-from"> -->
+						<input type="search" name="keyword" class="search-text" id="pname" />
+						<input type="submit" value="" class="search-btn" onclick="search()" />
+					<!-- </form> -->
+				</div>
+			</div>
+		</div>
+		
+		<div class="seckill">
+			<div class="seckill-head">
+			</div>
+			<div class="container">
+				<div id="scrollNav" class="seckill-nav">
+					<ul id="tabs">
+						<li class="active"><em>10:00</em> <span>即将开始</span></li>
+						<li><em>12:00</em> <span>即将开始</span></li>
+						<li><em>16:00</em> <span>即将开始</span></li>
+						<li><em>20:00</em> <span>即将开始</span></li>
+						<li><em>24:00</em> <span>即将开始</span></li>
+					</ul>
+				</div>
+				<div id="list" class="seckill-goods">
+					<ul class="clearfix active">
+						<li>
+							<div class="bg">
+								<img src="img/seckill/01.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">自清洁 | 小米互联网空调 1.5匹</a>
+								<p class="desc">高效制冷/热，全屋互联</p>
+								<p class="price">1799.00元 <del>2699元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/02.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米真无线蓝牙耳机 Air 2 白色</a>
+								<p class="desc">智能真无线，轻松舒适戴</p>
+								<p class="price">299.00元 <del>399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/03.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">米家两门冰箱 160L 银色</a>
+								<p class="desc">小巧能装，速冻养鲜</p>
+								<p class="price">929.00元 <del>1099元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/04.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">Redmi全自动波轮洗衣机1S 8kg 灰色</a>
+								<p class="desc">小身材大容量，可预约</p>
+								<p class="price">799.00元 <del>899元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/05.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">日常元素抽纸 青春版 24包/箱</a>
+								<p class="desc">精选原生竹浆，健康环保</p>
+								<p class="price">27.90元 <del>32.9元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<div class="bg">
+								<img src="img/seckill/04.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">Redmi全自动波轮洗衣机1S 8kg 灰色</a>
+								<p class="desc">小身材大容量，可预约</p>
+								<p class="price">799.00元 <del>899元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/05.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">日常元素抽纸 青春版 24包/箱</a>
+								<p class="desc">精选原生竹浆，健康环保</p>
+								<p class="price">27.90元 <del>32.9元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/01.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">自清洁 | 小米互联网空调 1.5匹</a>
+								<p class="desc">高效制冷/热，全屋互联</p>
+								<p class="price">1799.00元 <del>2699元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/02.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米真无线蓝牙耳机 Air 2 白色</a>
+								<p class="desc">智能真无线，轻松舒适戴</p>
+								<p class="price">299.00元 <del>399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/03.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">米家两门冰箱 160L 银色</a>
+								<p class="desc">小巧能装，速冻养鲜</p>
+								<p class="price">929.00元 <del>1099元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/01.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">自清洁 | 小米互联网空调 1.5匹</a>
+								<p class="desc">高效制冷/热，全屋互联</p>
+								<p class="price">1799.00元 <del>2699元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/02.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米真无线蓝牙耳机 Air 2 白色</a>
+								<p class="desc">智能真无线，轻松舒适戴</p>
+								<p class="price">299.00元 <del>399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/03.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">米家两门冰箱 160L 银色</a>
+								<p class="desc">小巧能装，速冻养鲜</p>
+								<p class="price">929.00元 <del>1099元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/04.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">Redmi全自动波轮洗衣机1S 8kg 灰色</a>
+								<p class="desc">小身材大容量，可预约</p>
+								<p class="price">799.00元 <del>899元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/05.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">日常元素抽纸 青春版 24包/箱</a>
+								<p class="desc">精选原生竹浆，健康环保</p>
+								<p class="price">27.90元 <del>32.9元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<div class="bg">
+								<img src="img/seckill/03.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">米家两门冰箱 160L 银色</a>
+								<p class="desc">小巧能装，速冻养鲜</p>
+								<p class="price">929.00元 <del>1099元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/04.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">Redmi全自动波轮洗衣机1S 8kg 灰色</a>
+								<p class="desc">小身材大容量，可预约</p>
+								<p class="price">799.00元 <del>899元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/05.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">日常元素抽纸 青春版 24包/箱</a>
+								<p class="desc">精选原生竹浆，健康环保</p>
+								<p class="price">27.90元 <del>32.9元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/01.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">自清洁 | 小米互联网空调 1.5匹</a>
+								<p class="desc">高效制冷/热，全屋互联</p>
+								<p class="price">1799.00元 <del>2699元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/02.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米真无线蓝牙耳机 Air 2 白色</a>
+								<p class="desc">智能真无线，轻松舒适戴</p>
+								<p class="price">299.00元 <del>399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+					</ul>
+					<ul class="clearfix">
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/01.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">自清洁 | 小米互联网空调 1.5匹</a>
+								<p class="desc">高效制冷/热，全屋互联</p>
+								<p class="price">1799.00元 <del>2699元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/08.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">17PIN 星果杯 樱花粉</a>
+								<p class="desc">随心随行，悦饮随心</p>
+								<p class="price">99.00元 <del>139元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/09.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米移动电源10000mAh高配 灰色</a>
+								<p class="desc"> 轻薄设计，轻松出行</p>
+								<p class="price">129.00元 <del>149元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/02.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米真无线蓝牙耳机 Air 2 白色</a>
+								<p class="desc">智能真无线，轻松舒适戴</p>
+								<p class="price">299.00元 <del>399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/03.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">米家两门冰箱 160L 银色</a>
+								<p class="desc">小巧能装，速冻养鲜</p>
+								<p class="price">929.00元 <del>1099元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/04.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">Redmi全自动波轮洗衣机1S 8kg 灰色</a>
+								<p class="desc">小身材大容量，可预约</p>
+								<p class="price">799.00元 <del>899元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/05.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">日常元素抽纸 青春版 24包/箱</a>
+								<p class="desc">精选原生竹浆，健康环保</p>
+								<p class="price">27.90元 <del>32.9元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/06.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">巨省电 | 小米新1级空调X 1.5匹</a>
+								<p class="desc">变频节能巨省电，自清洁</p>
+								<p class="price">2099.00元 <del>2399元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+						<li>
+							<div class="bg">
+								<img src="img/seckill/07.jpg" >
+							</div>
+							<div class="info">
+								<a href="#" class="name">小米AI音箱</a>
+								<p class="desc">听音乐、语音遥控家电</p>
+								<p class="price">199.00元 <del>299元</del></p>
+								<a href="#" class="btn">立刻抢购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="seckill-notice">
+					<p>
+						*小米秒杀活动规则：<br />
+						1.秒杀商品是否参加活动、最终秒杀成功的商品，以订单结算页显示为准，活动包括但不限于优惠券、赠品、满减、满赠等；<br />
+						2.秒杀商品数量有限，活动以下单支付成功为准，请加入购物车后尽快下单支付;<br />
+						3.秒杀价不含运费，最终以订单结算页价格为准；<br />
+						4.订单中商品的数量、颜色、型号等，以订单结算页为准。<br />
+						温馨提示：因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，如您发现活动商品标价或促销信息有异常，请您立即联系小米客服，以便我们及时补正。<br />
+					</p>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<script src="js/seckill.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

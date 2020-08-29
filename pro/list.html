@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/seckill.css" />
+
+		<style type="text/css">
+			#sp_list,
+			#sp_list2,
+			#sp_list3,
+			#sp_list4{
+				margin: 20px auto;
+				width: 1226px;
+				border-bottom: 1px solid #e0e0e0;
+			}
+			
+			ul {
+				list-style-type: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+			
+			#sp_list ul li,
+			#sp_list2 ul li,
+			#sp_list3 ul li,
+			#sp_list4 ul li{
+				margin-top: 0;
+				text-align: center;
+				width: 243px;
+				height: 146px;
+				padding: 24px 0 0 0;
+				float: left;
+				color: #e0e0e0;
+				font-size: 14px;
+				border-collapse: collapse;
+				border-bottom: 1px solid #e0e0e0;
+				border-right: 1px solid #e0e0e0;
+			}
+			#sp_list ul li a,
+			#sp_list2 ul li a,
+			#sp_list3 ul li a,
+			#sp_list4 ul li a{
+				color: #999;
+				
+			}
+			#sp_list ul li:first-child,
+			#sp_list2 ul li:first-child
+			#sp_list3 ul li:first-child,
+			#sp_list4 ul li:first-child{
+				border-left: 0;
+			}
+			
+			#sp_list ul li:nth-child(5n),
+			#sp_list2 ul li:nth-child(5n),
+			#sp_list3 ul li:nth-child(5n),
+			#sp_list4 ul li:nth-child(5n){
+				border-right: 0;
+			}
+			
+			#sp_list ul li:nth-child(6n),
+			#sp_list2 ul li:nth-child(6n),
+			#sp_list3 ul li:nth-child(6n),
+			#sp_list4 ul li:nth-child(6n){
+				border-left: 0;
+			}
+			
+			.tree{
+				width: 1226px;
+				margin: 0 auto;
+			}
+			
+			.tree>li{
+				clear: both;
+				padding-top: 20px;
+				font-size: 20px;
+			}
+			
+			li span {
+				padding-left: 40px;
+				cursor: pointer;
+				background: url(img/list/shang.svg) no-repeat center left;
+				border-bottom: 0;
+				color: #FF6700;
+			}
+
+			li div ul {
+				display: none;
+			}
+
+			.open {
+				background: url(img/list/xia.svg) no-repeat center left;
+				width: 1226px;
+				height: 40px;
+			}
+
+			.open+div>ul {
+				display: block;
+			}
+			
+		</style>
+	</head>
+	<body onload="list()">
+		<div class="topbar">
+			<div class="container">
+				<div class="topbar-nav">
+					<a href="index.html">小米商城</a><span>|</span>
+					<a href="#">MIUI</a><span>|</span>
+					<a href="#">loT</a><span>|</span>
+					<a href="#">云服务</a><span>|</span>
+					<a href="#">金融</a><span>|</span>
+					<a href="#">有品</a><span>|</span>
+					<a href="#">小爱开放平台</a><span>|</span>
+					<a href="#">企业团购</a><span>|</span>
+					<a href="#">资质证照</a><span>|</span>
+					<a href="#">协议规定</a><span>|</span>
+					<a href="#">下载app</a><span>|</span>
+					<a href="#">Select Loction</a><span>|</span>
+				</div>
+				<div class="topbar-cart">
+					<a href="#">购物车<span>（0）</span></a>
+				</div>
+				<div class="topbar-info clearfix">
+					<a href="login.html">登录</a><span>|</span>
+					<a href="#">注册</a><span>|</span>
+					<a href="#">消息通知</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="header">
+			<div class="container">
+				<div class="header-logo">
+					<a href="index.html"></a>
+				</div>
+				<div class="header-nav">
+					<ul class="nav-list clearfix">
+						<li class="nav-category">
+							<a href="list.html">全部商品分类</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">小米手机</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">Redmi 红米</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">电视</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">笔记本</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">家电</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">路由器</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">智能硬件</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">服务</a>
+						</li>
+						<li class="nav-item">
+							<a href="#">社区</a>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search">
+					<!-- <form action="" method="" class="search-from"> -->
+						<input type="search" name="keyword" class="search-text" id="pname" />
+						<input type="submit" value="" class="search-btn" onclick="search()" />
+					<!-- </form> -->
+				</div>
+			</div>
+		</div>
+
+
+
+		<ul class="tree">
+			<li>
+				<span class="open">手机</span>
+				
+				<div id="sp_list">
+					<ul>
+						
+					</ul>
+				</div>
+			</li>
+			<li>
+				<span class="open">电视</span>
+				
+				
+				<div id="sp_list2">
+					
+				</div>
+			</li>
+			<li>
+				<span class="open">空调</span>
+				<div id="sp_list3">
+					
+				</div>
+			</li>
+			<li>
+				<span class="open">家具</span>
+				<div id="sp_list4">
+					
+				</div>
+			</li>
+		</ul>
+
+
+
+
+
+
+		<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var spans = document.querySelectorAll("li>span");
+			for (var span of spans) {
+				span.onclick = function() {
+					var thisSpan = this;
+					var otherSpan =
+						document.querySelector("span.open");
+					if (thisSpan.className == "open") {
+						thisSpan.className = "";
+					} else {
+						thisSpan.className = "open";
+					}
+				}
+			}
+			
+			
+			
+			
+		</script>
+	</body>
+</html>
